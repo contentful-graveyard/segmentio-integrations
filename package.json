@@ -26,7 +26,7 @@
     "new-date": "0.2.0",
     "obj-case": "0.0.1",
     "isostring": "0.0.1",
-    "segmentio-facade": "~0.1.2",
+    "segmentio-facade": "~0.1.4",
     "convert-dates": "~0.1.0",
     "isodate-traverse": "~0.1.0"
   },
