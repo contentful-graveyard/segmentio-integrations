@@ -31,6 +31,7 @@ exports.track = function (options) {
     timestamp  : new Date(),
     options : {
       traits : {
+        group   : { id: 'group-id' },
         email   : options.email || email,
         age     : 23,
         created : new Date(),
@@ -70,6 +71,7 @@ exports.identify = function (options) {
   options = extend({
     userId : firstId,
     traits : {
+      group       : { id: 'group-id' },
       fat         : 0.02,
       firstName   : 'John',
       'Last Name' : 'Doe',
